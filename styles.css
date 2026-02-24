@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gold: #D4AF37;
+    --roseo: #E8C4B8; 
+    --white: #FFFFFF;
+    --grey: #5C5D5D;
+    --section-titles: #101828;
+    --second-bg-section: #FFF8F0;
+    --text-color: #4A5565;
+    --pink-bg: #FFE5E5;
+    --img-text: #D1D0CD;
+    --footer-span-txt: #99A1AF;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
