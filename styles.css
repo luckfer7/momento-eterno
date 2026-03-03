@@ -26,7 +26,8 @@ html, body {
 }
 
 .first__section {
-    background-image: url("/imgs/marriagecouple.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("/imgs/marriagecouple.jpeg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -44,11 +45,24 @@ html, body {
 
 .nav__logo__container {
     display: flex;
+    align-items: center;
     text-decoration: none;
 }
 
 .logo {
     background-color: var(--gold);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo svg {
+     width: 32px;
+    height: 32px;
+    color: white; /* controla a cor do ícone */
 }
 
 .nav__logo__container span {
@@ -76,6 +90,10 @@ html, body {
     font-size: 16px;
 }
 
+.nav__list li a:hover{
+    color: var(--roseo);
+}
+
 .book-now {
     background-color: var(--gold);
     padding: 8px 24px;
@@ -86,10 +104,17 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 124px;
 }
 
 .first__section__content h1 span {
     display: block;
+    text-align: center;
+}
+
+.first__section__content p span {
+    display: block;
+    text-align: center;
 }
 
 .first__section__content h1 {
@@ -97,11 +122,14 @@ html, body {
     font-weight: 500;
     font-size: 96px;
     color: var(--white);
+    line-height: 0.85;
 }
 
 .first__section__content p {
     font-size: 24px;
     color: var(--dark-white);
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
 
 .first__section__content a {
@@ -113,4 +141,14 @@ html, body {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    display: inline-block; /* importante */
+    transition: transform 0.3s ease; /* animação suave */
+}
+
+.first__section__content a:hover {
+    transform: scale(1.05);
+}
+
+.first__section__content--span {
+    color: var(--roseo);
 }
