@@ -152,3 +152,46 @@ html, body {
 .first__section__content--span {
     color: var(--roseo);
 }
+
+.second__section {
+    /* height: 100vh; */
+    background-color: var(--second-bg-section);
+    padding: 96px 32px;
+}
+
+.second__section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.second__section__container--title {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+}
+
+.second__section__container--text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+}
+.second__section__container--text span {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    display: block;
+}
+
+.second__section__container__services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.second__section__container__services--box {
+    height: 30px;
+    width: 30px;
+    border: 2px solid var(--gold);
+}
