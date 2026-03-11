@@ -25,6 +25,10 @@ html, body {
   width: 100%;
 }
 
+.camera__icon {
+    fill: var(--gold);
+}
+
 .first__section {
     background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url("/imgs/marriagecouple.jpeg");
@@ -222,3 +226,4 @@ html, body {
     color: var(--text-color);
     line-height: 1.5;
 }
+
