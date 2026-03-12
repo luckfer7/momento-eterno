@@ -1,0 +1,1 @@
+na terceira seção, eu só reaproveiei o mesmo grid da segunda. coloquei as fotos dentro da div e setei um valor máximo nela. escevi bem menos código.

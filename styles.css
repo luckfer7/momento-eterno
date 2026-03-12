@@ -186,6 +186,7 @@ html, body {
     font-size: 20px;
     color: var(--text-color);
     display: block;
+    text-align: center;
 }
 
 .second__section__container__services {
@@ -227,3 +228,19 @@ html, body {
     line-height: 1.5;
 }
 
+.third__section {
+    background-color: var(--white);
+    padding: 96px 32px;
+}
+
+.third__section__container__services--box {
+    width: 410px;
+    height: 533px;
+}
+
+.third__section__container__services--box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
