@@ -8,7 +8,7 @@
 
 :root {
     --gold: #D4AF37;
-    --roseo: #E8C4B8; 
+    --roseo: #FFE5E5; 
     --white: #FFFFFF;
     --grey: #5C5D5D;
     --dark-white: #D2D2D3;
@@ -247,4 +247,75 @@ html, body {
 
 .star__svg {
     color: #D4AF37;
+}
+
+.fourth__section {
+    background-color: var(--roseo);
+    padding: 96px 32px;
+}
+
+.fourth__section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.fourth__section__container--title {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+}
+
+.fourth__section__container--text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.fourth__section__container__services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    padding: 86px;
+}
+
+.fourth__section__container__services--box {
+    padding: 32px;
+    border-radius: 16px;
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+}
+
+.quote {
+    margin-bottom: 16px;
+}
+
+.fourth__section__container__services--stars {
+    margin-bottom: 16px;
+}
+
+.fourth__section__container__services--box--text {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    color: var(--text-color);
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+.fourth__section__container__services--box--line {
+    border-top: 1px solid var(--gold);
+    padding-top: 24px;
+}
+
+.fourth__section__container__services--box--line--names {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.fourth__section__container__services--box--line--place {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
 }
